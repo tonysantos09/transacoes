@@ -1,5 +1,10 @@
 ### Docker
-Criando e utilizando a API
+Criando os containers e utilizando a API
+```
+Garantir que os arquivos .jar estejam criados na pasta /target
+docker-transacoes.jar
+docker-transacoes.jar.original
+```
 
 Dockerfile
 ```
