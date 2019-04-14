@@ -11,9 +11,12 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 import java.time.LocalDateTime;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 
 @Slf4j
 @RestController
+@Api(value = "Transacoes", description = "transacoes")
 public class TransacaoController {
     public novaTransacaoDAO daoNovaTransacaoDao;
     public todasTransacoesDAO daoTodasTransacoesDao;
